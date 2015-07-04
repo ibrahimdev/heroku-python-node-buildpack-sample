@@ -1,0 +1,20 @@
+{
+  "name": "Sample",
+  "version": "0.0.1",
+  "description": "Sample Build Pack Package.json",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "webpack": "^1.9.11",
+    "webpack-wrapper": "^0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall" : "webpack"
+  }
+}
